@@ -1,0 +1,34 @@
+$dark-blue: #051643;
+$light-blue: #4ebdef;
+
+.PaginationContainer {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.PaginationItem {
+  margin-right: 0.5rem;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  border: 1px solid $dark-blue;
+  color: $dark-blue;
+  font-size: 14px;
+  border-radius: 15px;
+  background: transparent;
+  &:hover {
+    background: rgba($color: $dark-blue, $alpha: 0.7);
+    color: white
+  }
+}
+.PaginationItemActive { 
+  background: rgba($color: $dark-blue, $alpha: 1.0);
+  color: white
+}

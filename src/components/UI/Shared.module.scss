@@ -1,0 +1,68 @@
+$main-color: linear-gradient(64.49deg, #4ebdef 13.61%, #5a84ef 80.33%);
+$secondary-color: linear-gradient(21.49deg, #4ebdef 3.61%, #5a87ef 80.33%);
+$dark-blue: #051643;
+$light-blue: #4ebdef;
+
+.PrimaryButton {
+    width: 200px;
+    height: 40px;
+    border: 1.5px solid $light-blue;
+    background-color: $light-blue;
+    color: white;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2) !important;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.35rem;
+    transition: all 0.15s ease-in-out;
+    margin: 0;
+    
+    &:hover {
+      border-color: $dark-blue;
+      background: $dark-blue;
+    }
+}
+
+.Button {
+    width: 200px;
+    height: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.35rem;
+    transition: all 0.15s ease-in-out;
+    margin: 0;
+    border: 1px solid #858796;
+    background-color: white;
+    color: #858796;
+  
+    &:hover {
+      border: 1px solid #858796;
+      cursor: pointer;
+    }
+  
+    &:disabled {
+      cursor: not-allowed; 
+    }
+}
+
+.BorderedButton {
+    border-radius: 20px;
+}
+
+.SmallButton {
+    width: fit-content;
+    height: 35px;
+    font-size: 0.75rem;
+}
+.MarginsButton {
+    margin: 15px;
+}

@@ -1,0 +1,16 @@
+.navUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+.navbar {
+    background-color: #051643;
+    color: white;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
